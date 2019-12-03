@@ -15,6 +15,5 @@ while true
 			had_that_frequency.push new_frequency
 		end
 	end
-	puts had_that_frequency.to_s
 end
 
