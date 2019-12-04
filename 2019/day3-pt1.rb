@@ -1,3 +1,5 @@
+# https://adventofcode.com/2019/day/3
+
 require "set"
 
 def go_one_step(start, direction)
