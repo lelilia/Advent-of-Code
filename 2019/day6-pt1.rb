@@ -6,17 +6,8 @@ class Orbits
 	end
 
 	def add_orbit(a,b)
-		#@orbits[a] << b
 		@orbits[b] << a 
 	end
-
-	# def how_many_orbits(a, b, result, bl)
-	# 	result = result + [a]
-	# 	bl << result if a == b
-	# 	@orbits[a].each do |v|
-	# 		how_many_orbits(v,b,result, bl) if !result.include?(v)
-	# 	end 
-	# end
 
 	def how_many_orbits(a,b,depth)
 		return depth if a == b
